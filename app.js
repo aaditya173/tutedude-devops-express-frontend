@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const axios = require("axios");
 
 // Access values from .env
-const BACKEND_URL = process.env.BACKEND_URL || "http://localhost";
+const BACKEND_URL = process.env.BACKEND_URL || "http://0.0.0.0";
 const BACKEND_PORT = process.env.BACKEND_PORT || 5000;
 
 const app = express();
